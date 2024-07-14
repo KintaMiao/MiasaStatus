@@ -19,8 +19,6 @@ export default function Home({
 }: {
   state: string
   monitors: MonitorTarget[]
-  tooltip?: string
-  statusPageLink?: string
 }) {
   let state;
   if (stateStr !== undefined) {
@@ -85,6 +83,10 @@ export default function Home({
           <a href="https://github.com/lyc8503" target="_blank">
             lyc8503
           </a>
+          , Rebuild by{' '}
+          <a href="https://github.com/KintaMiao" target="_blank">
+            Miasa
+          </a>
           .
         </Text>
       </main>
@@ -105,9 +107,7 @@ export async function getServerSideProps() {
     return {
       id: monitor.id,
       name: monitor.name,
-      // @ts-ignore
       tooltip: monitor?.tooltip,
-      // @ts-ignore
       statusPageLink: monitor?.statusPageLink
     }
   })
