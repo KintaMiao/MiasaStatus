@@ -3,9 +3,7 @@ const pageConfig = {
   title: "Miasa's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://kintamiao.top', label: 'Blog' },
-    { link: 'https://github.com/KintaMiao', label: 'GitHub' },
-    { link: 'mailto:mail@kintamiao.top', label: 'Email Me', highlight: true },
+    { link: 'mailto:mail@kintamiao.top', label: 'Email Us', highlight: true },
   ],
 }
 
