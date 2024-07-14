@@ -18,23 +18,25 @@ const workerConfig = {
       id: 'miasa_monitor',
       name: 'KintaMiao Website',
       method: 'GET',
-      target: 'https://kintamiao.top',
-      tooltip: 'KintaMiao Website',
-      statusPageLink: '',
+      target: 'https://kintamiao.top'
     },
     {
       id: 'yunyoo_hk_vps',
       name: 'HK VPS',
       method: 'TCP_PING',
-      target: '103.169.126.229:22',
-      tooltip: 'Miasa HK Server',
+      target: '103.169.126.229:22'
     },
     {
       id: 'yunyoo_us_vps',
       name: 'US VPS',
       method: 'TCP_PING',
-      target: '208.87.240.5:10136',
-      tooltip: 'Miasa US Server',
+      target: '208.87.240.5:10136'
+    },
+    {
+      id: 'yunyoo_uk_vps',
+      name: 'UK VPS',
+      method: 'TCP_PING',
+      target: '146.103.53.18:22'
     },
   ],
   notification: {
