@@ -20,21 +20,33 @@ const workerConfig = {
     },
     {
       id: 'yunyoo_hk_vps',
-      name: 'HK VPS',
+      name: 'Hong Kong VPS',
       method: 'TCP_PING',
       target: '103.169.126.229:22'
     },
     {
       id: 'yunyoo_us_vps',
-      name: 'US VPS',
+      name: 'USA VPS',
       method: 'TCP_PING',
       target: '208.87.240.5:10136'
     },
     {
-      id: 'yunyoo_uk_vps',
-      name: 'UK VPS',
+      id: 'yunyoo_gb_vps',
+      name: 'Great Britain VPS',
       method: 'TCP_PING',
       target: '146.103.53.18:22'
+    },
+    {
+      id: 'sjy_de_vps',
+      name: 'Germany VPS',
+      method: 'TCP_PING',
+      target: '109.71.253.46:10019'
+    },
+    {
+      id: 'sjy_kr_vps',
+      name: 'Korea VPS',
+      method: 'TCP_PING',
+      target: 'chuncheon.guapi.me:10013'
     },
   ],
   notification: {
