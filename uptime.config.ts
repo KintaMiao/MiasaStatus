@@ -31,8 +31,8 @@ const workerConfig = {
       target: '208.87.240.5:10136'
     },
     {
-      id: 'yunyoo_gb_vps',
-      name: 'Great Britain VPS',
+      id: 'yunyoo_uk_vps',
+      name: 'UK(GB) VPS',
       method: 'TCP_PING',
       target: '146.103.53.18:22'
     },
