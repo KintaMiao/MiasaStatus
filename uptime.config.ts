@@ -61,14 +61,14 @@ const workerConfig = {
       target: 'chuncheon.guapi.me:10013'
     },
     {
-      id: 'sub_web_website',
+      id: 'sub_converter_frontend',
       name: 'Sub Converter Web',
       method: 'GET',
       target: 'https://sub.miasanet.tech'
     },
     {
-      id: 'sub_converter_back',
-      name: 'Sub Converter Back',
+      id: 'sub_converter_backend',
+      name: 'Sub Converter Backend',
       method: 'GET',
       target: 'https://suc.miasanet.tech/sub'
     },
