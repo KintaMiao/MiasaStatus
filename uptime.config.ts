@@ -70,13 +70,7 @@ const workerConfig = {
       id: 'sub_converter_back',
       name: 'Sub Converter Back',
       method: 'GET',
-      target: 'https://suc.miasanet.tech'
-    },
-    {
-      id: 'badtest',
-      name: 'Bad Display Test',
-      method: 'GET',
-      target: 'https://sjjsjzjxjjxjs.tech'
+      target: 'https://suc.miasanet.tech/sub'
     },
   ],
   notification: {
