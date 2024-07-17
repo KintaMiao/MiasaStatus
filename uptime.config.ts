@@ -63,13 +63,13 @@ const workerConfig = {
     {
       id: 'sub_converter_frontend',
       name: 'Sub Converter Web',
-      method: 'GET',
+      method: 'HEAD',
       target: 'https://sub.miasanet.tech'
     },
     {
       id: 'sub_converter_backend',
       name: 'Sub Converter Backend',
-      method: 'POST',
+      method: 'HEAD',
       target: 'https://suc.miasanet.tech/sub'
     },
   ],
