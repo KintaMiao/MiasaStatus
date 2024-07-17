@@ -60,18 +60,6 @@ const workerConfig = {
       method: 'TCP_PING',
       target: 'chuncheon.guapi.me:10013'
     },
-    {
-      id: 'sub_converter_frontend',
-      name: 'Sub Converter Web',
-      method: 'HEAD',
-      target: 'https://sub.miasanet.tech'
-    },
-    {
-      id: 'sub_converter_backend',
-      name: 'Sub Converter Backend',
-      method: 'HEAD',
-      target: 'https://suc.miasanet.tech/sub'
-    },
   ],
   notification: {
     // [Optional] apprise API server URL
