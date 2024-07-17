@@ -15,11 +15,10 @@ export default function OverallStatus({
   } else if (state.overallDown === 0) {
     statusString = '一切正常'
     icon = <IconCircleCheck style={{ width: 64, height: 64, color: '#059669' }} />
-  } else {
-    statusString = `部分系统无法运行， (${state.overallDown} 台中的 ${
-      state.overallUp + state.overallDown
-    })`
-  }
+    } else {
+      statusString = `${state.overallUp + state.overallDown} 台中的 ${state.overallDown} 台`
+    }
+
 
   return (
     <>
