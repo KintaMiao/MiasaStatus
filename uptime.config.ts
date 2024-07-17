@@ -19,6 +19,18 @@ const workerConfig = {
       target: 'https://kintamiao.top'
     },
     {
+      id: 'miasa_network_website',
+      name: 'Miasa Network Website',
+      method: 'GET',
+      target: 'https://miasanet.tech'
+    },
+    {
+      id: 'yunyoo_hk_main',
+      name: 'HK Main Server',
+      method: 'TCP_PING',
+      target: '45.125.12.212:22'
+    },
+    {
       id: 'yunyoo_hk_vps',
       name: 'Hong Kong VPS',
       method: 'TCP_PING',
@@ -47,6 +59,24 @@ const workerConfig = {
       name: 'Korea VPS',
       method: 'TCP_PING',
       target: 'chuncheon.guapi.me:10013'
+    },
+    {
+      id: 'sub_web_website',
+      name: 'Sub Converter Web',
+      method: 'GET',
+      target: 'https://sub.miasanet.tech'
+    },
+    {
+      id: 'sub_converter_back',
+      name: 'Sub Converter Back',
+      method: 'GET',
+      target: 'https://suc.miasanet.tech'
+    },
+    {
+      id: 'badtest',
+      name: 'Bad Display Test',
+      method: 'GET',
+      target: 'https://sjjsjzjxjjxjs.tech'
     },
   ],
   notification: {
