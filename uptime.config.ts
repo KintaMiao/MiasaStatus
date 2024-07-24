@@ -49,12 +49,6 @@ const workerConfig = {
       target: '146.103.53.18:22'
     },
     {
-      id: 'sjy_de_vps',
-      name: 'Germany VPS',
-      method: 'TCP_PING',
-      target: '109.71.253.46:20195'
-    },
-    {
       id: 'sjy_kr_vps',
       name: 'Korea VPS',
       method: 'TCP_PING',
