@@ -47,13 +47,7 @@ const workerConfig = {
       name: 'UK(GB) VPS',
       method: 'TCP_PING',
       target: '146.103.53.18:22'
-    },
-    {
-      id: 'sjy_kr_vps',
-      name: 'Korea VPS',
-      method: 'TCP_PING',
-      target: 'chuncheon.guapi.me:10013'
-    },
+    }
   ],
   notification: {
     // [Optional] apprise API server URL
